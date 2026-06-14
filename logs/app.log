@@ -1,0 +1,471 @@
+2026-42-06/13/26 22:42:05 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-42-06/13/26 22:42:05 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-42-06/13/26 22:42:05 - werkzeug - INFO -  * Restarting with stat
+2026-42-06/13/26 22:42:05 - werkzeug - WARNING -  * Debugger is active!
+2026-42-06/13/26 22:42:05 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "GET / HTTP/1.1" 200 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:12] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:17 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:17] "[33mGET /form/upload.html HTTP/1.1[0m" 404 -
+2026-42-06/13/26 22:42:28 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:28] "GET /upload HTTP/1.1" 200 -
+2026-42-06/13/26 22:42:28 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:28 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:28] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-42-06/13/26 22:42:28 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:42:28] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-43-06/13/26 22:43:17 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:43:17] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-48-06/13/26 22:48:12 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:12] "[33mGET /user HTTP/1.1[0m" 404 -
+2026-48-06/13/26 22:48:17 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:17] "[33mGET /userTima HTTP/1.1[0m" 404 -
+2026-48-06/13/26 22:48:24 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:24] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2026-48-06/13/26 22:48:24 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:24] "GET /users?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-48-06/13/26 22:48:24 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:24] "GET /users?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-48-06/13/26 22:48:24 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:24] "GET /users?__debugger__=yes&cmd=resource&f=console.png&s=tZftnjYMNw2KkzCtgFRR HTTP/1.1" 200 -
+2026-48-06/13/26 22:48:24 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:24] "GET /users?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-48-06/13/26 22:48:34 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:34] "[33mGET /usersTima HTTP/1.1[0m" 404 -
+2026-48-06/13/26 22:48:47 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:47] "[33mGET /usersPetr HTTP/1.1[0m" 404 -
+2026-48-06/13/26 22:48:53 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:53] "[35m[1mGET /users HTTP/1.1[0m" 500 -
+2026-48-06/13/26 22:48:53 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:53] "[36mGET /users?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-48-06/13/26 22:48:53 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:53] "[36mGET /users?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-48-06/13/26 22:48:53 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:48:53] "[36mGET /users?__debugger__=yes&cmd=resource&f=console.png&s=tZftnjYMNw2KkzCtgFRR HTTP/1.1[0m" 304 -
+2026-49-06/13/26 22:49:20 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:49:20] "GET /users/Tima HTTP/1.1" 200 -
+2026-49-06/13/26 22:49:34 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:49:34] "GET /users/Zita HTTP/1.1" 200 -
+2026-50-06/13/26 22:50:32 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:50:32] "GET /users/да%20здравстует%20огромная%20пизда HTTP/1.1" 200 -
+2026-52-06/13/26 22:52:49 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-52-06/13/26 22:52:49 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-52-06/13/26 22:52:49 - werkzeug - INFO -  * Restarting with stat
+2026-52-06/13/26 22:52:49 - werkzeug - WARNING -  * Debugger is active!
+2026-52-06/13/26 22:52:49 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-53-06/13/26 22:53:20 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:53:20] "GET /upload HTTP/1.1" 200 -
+2026-53-06/13/26 22:53:20 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:53:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-53-06/13/26 22:53:20 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:53:20] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-53-06/13/26 22:53:20 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:53:20] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-54-06/13/26 22:54:11 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:11] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-54-06/13/26 22:54:11 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:11] "GET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-54-06/13/26 22:54:11 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:11] "GET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-54-06/13/26 22:54:11 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:11] "GET /images?__debugger__=yes&cmd=resource&f=console.png&s=ADPfXetrsVCUk8bnFCRp HTTP/1.1" 200 -
+2026-54-06/13/26 22:54:11 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:11] "GET /images?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-54-06/13/26 22:54:37 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:54:37] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-55-06/13/26 22:55:35 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:55:35] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-55-06/13/26 22:55:35 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:55:35] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-55-06/13/26 22:55:35 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:55:35] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-55-06/13/26 22:55:35 - werkzeug - INFO - 127.0.0.1 - - [13/Jun/2026 22:55:35] "[36mGET /images?__debugger__=yes&cmd=resource&f=console.png&s=ADPfXetrsVCUk8bnFCRp HTTP/1.1[0m" 304 -
+2026-33-06/14/26 07:33:37 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-33-06/14/26 07:33:37 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-33-06/14/26 07:33:37 - werkzeug - INFO -  * Restarting with stat
+2026-33-06/14/26 07:33:37 - werkzeug - WARNING -  * Debugger is active!
+2026-33-06/14/26 07:33:37 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-33-06/14/26 07:33:45 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:45] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-33-06/14/26 07:33:45 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:45] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-33-06/14/26 07:33:45 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:45] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-33-06/14/26 07:33:45 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:45] "GET /images?__debugger__=yes&cmd=resource&f=console.png&s=oOGrrRo6q9BpQcf3ENyH HTTP/1.1" 200 -
+2026-33-06/14/26 07:33:45 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:45] "[36mGET /images?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-33-06/14/26 07:33:49 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:49] "[33mGET /form/upload.html HTTP/1.1[0m" 404 -
+2026-33-06/14/26 07:33:55 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:33:55] "[33mGET /form/upload.html HTTP/1.1[0m" 404 -
+2026-34-06/14/26 07:34:09 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:09] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-34-06/14/26 07:34:09 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:09] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-34-06/14/26 07:34:09 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:09] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-34-06/14/26 07:34:09 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:09] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-34-06/14/26 07:34:09 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:09] "[36mGET /images?__debugger__=yes&cmd=resource&f=console.png&s=oOGrrRo6q9BpQcf3ENyH HTTP/1.1[0m" 304 -
+2026-34-06/14/26 07:34:34 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-34-06/14/26 07:34:34 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-34-06/14/26 07:34:34 - werkzeug - INFO -  * Restarting with stat
+2026-34-06/14/26 07:34:34 - werkzeug - WARNING -  * Debugger is active!
+2026-34-06/14/26 07:34:34 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-34-06/14/26 07:34:39 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:39] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-34-06/14/26 07:34:39 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:39] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-34-06/14/26 07:34:39 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:39] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-34-06/14/26 07:34:39 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:39] "GET /images?__debugger__=yes&cmd=resource&f=console.png&s=Wxi91f3KTuDMBF2WtjIH HTTP/1.1" 200 -
+2026-34-06/14/26 07:34:39 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:34:39] "[36mGET /images?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:13 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-35-06/14/26 07:35:13 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-35-06/14/26 07:35:13 - werkzeug - INFO -  * Restarting with stat
+2026-35-06/14/26 07:35:13 - werkzeug - WARNING -  * Debugger is active!
+2026-35-06/14/26 07:35:13 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-35-06/14/26 07:35:26 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:26] "GET /images HTTP/1.1" 200 -
+2026-35-06/14/26 07:35:26 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:26] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:26 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:26] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:26 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:31 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:31] "[33mGET /upload.html HTTP/1.1[0m" 404 -
+2026-35-06/14/26 07:35:50 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:50] "GET /upload HTTP/1.1" 200 -
+2026-35-06/14/26 07:35:50 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:50 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:50] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-35-06/14/26 07:35:50 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:35:50] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "GET / HTTP/1.1" 200 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:41] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-42-06/14/26 07:42:42 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:42:42] "[33mGET /form/upload.html HTTP/1.1[0m" 404 -
+2026-45-06/14/26 07:45:45 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-45-06/14/26 07:45:45 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-45-06/14/26 07:45:45 - werkzeug - INFO -  * Restarting with stat
+2026-45-06/14/26 07:45:45 - werkzeug - WARNING -  * Debugger is active!
+2026-45-06/14/26 07:45:45 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "GET / HTTP/1.1" 200 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-45-06/14/26 07:45:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:53] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-45-06/14/26 07:45:55 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:45:55] "[33mGET /upload.html HTTP/1.1[0m" 404 -
+2026-46-06/14/26 07:46:48 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-46-06/14/26 07:46:48 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-46-06/14/26 07:46:48 - werkzeug - INFO -  * Restarting with stat
+2026-46-06/14/26 07:46:48 - werkzeug - WARNING -  * Debugger is active!
+2026-46-06/14/26 07:46:48 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-46-06/14/26 07:46:56 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:56] "GET / HTTP/1.1" 200 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:57] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "GET / HTTP/1.1" 200 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-46-06/14/26 07:46:59 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:46:59] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-47-06/14/26 07:47:00 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:47:00] "GET /upload HTTP/1.1" 200 -
+2026-47-06/14/26 07:47:00 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:47:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-47-06/14/26 07:47:00 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:47:00] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-47-06/14/26 07:47:00 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:47:00] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-47-06/14/26 07:47:05 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:47:05] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-47-06/14/26 07:47:57 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-47-06/14/26 07:47:57 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-47-06/14/26 07:47:57 - werkzeug - INFO -  * Restarting with stat
+2026-47-06/14/26 07:47:57 - werkzeug - WARNING -  * Debugger is active!
+2026-47-06/14/26 07:47:57 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-48-06/14/26 07:48:01 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:48:01] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-48-06/14/26 07:48:04 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:48:04] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-48-06/14/26 07:48:10 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:48:10] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-48-06/14/26 07:48:13 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:48:13] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-50-06/14/26 07:50:24 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:24] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-50-06/14/26 07:50:37 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:37] "GET /images HTTP/1.1" 200 -
+2026-50-06/14/26 07:50:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:38] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-50-06/14/26 07:50:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-50-06/14/26 07:50:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:38] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-50-06/14/26 07:50:44 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:50:44] "[33mGET /upload.html HTTP/1.1[0m" 404 -
+2026-53-06/14/26 07:53:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:53:41] "GET /upload HTTP/1.1" 200 -
+2026-53-06/14/26 07:53:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:53:41] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-53-06/14/26 07:53:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:53:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-53-06/14/26 07:53:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:53:41] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-53-06/14/26 07:53:56 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:53:56] "[33mGET /images.html HTTP/1.1[0m" 404 -
+2026-54-06/14/26 07:54:01 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:54:01] "GET /images HTTP/1.1" 200 -
+2026-54-06/14/26 07:54:01 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:54:01] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-54-06/14/26 07:54:01 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:54:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-54-06/14/26 07:54:01 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:54:01] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-55-06/14/26 07:55:21 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:55:21] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-55-06/14/26 07:55:21 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:55:21] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-55-06/14/26 07:55:21 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:55:21] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-55-06/14/26 07:55:21 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:55:21] "GET /images?__debugger__=yes&cmd=resource&f=console.png&s=5ejA52FomTwnCAwVWhSy HTTP/1.1" 200 -
+2026-55-06/14/26 07:55:21 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 07:55:21] "[36mGET /images?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:47 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-02-06/14/26 08:02:47 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06/14/26 08:02:47 - werkzeug - INFO -  * Restarting with stat
+2026-02-06/14/26 08:02:48 - werkzeug - WARNING -  * Debugger is active!
+2026-02-06/14/26 08:02:48 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "GET / HTTP/1.1" 200 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:57 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:57] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:58 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:58] "GET /upload HTTP/1.1" 200 -
+2026-02-06/14/26 08:02:58 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:58 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:58] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-02-06/14/26 08:02:58 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:02:58] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-03-06/14/26 08:03:04 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:03:04] "[35m[1mGET /images HTTP/1.1[0m" 500 -
+2026-03-06/14/26 08:03:04 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:03:04] "[36mGET /images?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-03-06/14/26 08:03:04 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:03:04] "[36mGET /images?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-03-06/14/26 08:03:04 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:03:04] "GET /images?__debugger__=yes&cmd=resource&f=console.png&s=DHTRVfYfsj2CQs6G9BhI HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:19 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-06-06/14/26 08:06:19 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-06/14/26 08:06:19 - werkzeug - INFO -  * Restarting with stat
+2026-06-06/14/26 08:06:19 - werkzeug - WARNING -  * Debugger is active!
+2026-06-06/14/26 08:06:19 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-06-06/14/26 08:06:25 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:25] "GET /images HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:25 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:25] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:25 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:25 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:25] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:29 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:29] "GET /upload HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:29 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:29 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:29] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:29 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:29] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:42 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:42] "GET /images HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:42 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:42 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:42] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:42 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:42] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:46 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:46] "GET /upload HTTP/1.1" 200 -
+2026-06-06/14/26 08:06:46 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:46 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:46] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-06/14/26 08:06:46 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:06:46] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-07-06/14/26 08:07:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:07:23] "GET /images HTTP/1.1" 200 -
+2026-07-06/14/26 08:07:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:07:23] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-07-06/14/26 08:07:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:07:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-06/14/26 08:07:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:07:23] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:11 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-10-06/14/26 08:10:11 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-10-06/14/26 08:10:11 - werkzeug - INFO -  * Restarting with stat
+2026-10-06/14/26 08:10:11 - werkzeug - WARNING -  * Debugger is active!
+2026-10-06/14/26 08:10:11 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "GET / HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:19 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:19] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:22 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:22] "GET /upload HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:23] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:23 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:23] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:35 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:35] "GET /images HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:35 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:35 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:35] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:35 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:35] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:38] "GET /upload HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:38] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:38 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:38] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:49 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:49] "GET /images HTTP/1.1" 200 -
+2026-10-06/14/26 08:10:49 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:49] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:49 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-10-06/14/26 08:10:49 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 08:10:49] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-48-06/14/26 21:48:56 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-48-06/14/26 21:48:56 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-48-06/14/26 21:48:56 - werkzeug - INFO -  * Restarting with stat
+2026-48-06/14/26 21:48:56 - werkzeug - WARNING -  * Debugger is active!
+2026-48-06/14/26 21:48:56 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-49-06/14/26 21:49:05 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:05] "GET / HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/css/reset.css HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/img/Griz.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/img/Zero.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/img/Eric.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/img/Nord.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:06 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:06] "GET /static/img/Cat.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:08 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:08] "GET /upload HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:08 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-49-06/14/26 21:49:08 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:08] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:08 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:08] "GET /static/img/icon/feather_upload-cloud.png HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:14 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:14] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-49-06/14/26 21:49:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:41] "GET /images HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:41] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-49-06/14/26 21:49:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-49-06/14/26 21:49:41 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:41] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-49-06/14/26 21:49:53 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2026 21:49:53] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-38-06/15/26 00:38:34 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-38-06/15/26 00:38:34 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-38-06/15/26 00:38:34 - werkzeug - INFO -  * Restarting with stat
+2026-38-06/15/26 00:38:34 - werkzeug - WARNING -  * Debugger is active!
+2026-38-06/15/26 00:38:34 - werkzeug - INFO -  * Debugger PIN: 875-985-180
+2026-53-06/15/26 12:53:41 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-53-06/15/26 12:53:41 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-53-06/15/26 12:53:41 - werkzeug - INFO -  * Restarting with stat
+2026-53-06/15/26 12:53:42 - werkzeug - WARNING -  * Debugger is active!
+2026-53-06/15/26 12:53:42 - werkzeug - INFO -  * Debugger PIN: 720-909-346
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET / HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/img/Griz.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/img/Cat.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/img/Nord.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/img/Eric.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:43 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:43] "GET /static/img/Zero.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:48 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:48] "GET /upload HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:48 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-55-06/15/26 12:55:48 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:48] "GET /static/img/icon/feather_upload-cloud.png HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:48 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:48] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-55-06/15/26 12:55:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:55:54] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-56-06/15/26 12:56:01 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:01] "GET /images HTTP/1.1" 200 -
+2026-56-06/15/26 12:56:01 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:01] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-56-06/15/26 12:56:01 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:01] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-56-06/15/26 12:56:01 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-56-06/15/26 12:56:04 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:04] "GET /upload HTTP/1.1" 200 -
+2026-56-06/15/26 12:56:04 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:04] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-56-06/15/26 12:56:04 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-56-06/15/26 12:56:04 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:04] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-56-06/15/26 12:56:09 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:56:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-58-06/15/26 12:58:09 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:58:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-59-06/15/26 12:59:35 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 12:59:35] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-07-06/15/26 13:07:53 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-07-06/15/26 13:07:53 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-07-06/15/26 13:07:53 - werkzeug - INFO -  * Restarting with stat
+2026-07-06/15/26 13:07:53 - werkzeug - WARNING -  * Debugger is active!
+2026-07-06/15/26 13:07:53 - werkzeug - INFO -  * Debugger PIN: 434-974-474
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET / HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/css/reset.css HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/img/Griz.png HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/img/Nord.png HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/img/Cat.png HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/img/Zero.png HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "GET /static/img/Eric.png HTTP/1.1" 200 -
+2026-08-06/15/26 13:08:54 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:08:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-06/15/26 13:09:02 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:09:02] "GET /upload HTTP/1.1" 200 -
+2026-09-06/15/26 13:09:02 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-09-06/15/26 13:09:02 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:09:02] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-09-06/15/26 13:09:02 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:09:02] "GET /static/img/icon/feather_upload-cloud.png HTTP/1.1" 200 -
+2026-09-06/15/26 13:09:13 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:09:13] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-06/15/26 13:10:09 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:10:09] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-06/15/26 13:10:37 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:10:37] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "GET / HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:19 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:19] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/img/Zero.png HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/img/Nord.png HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/img/Griz.png HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/img/Cat.png HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/js/index.js HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:20 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:20] "GET /static/img/Eric.png HTTP/1.1" 200 -
+2026-20-06/15/26 13:20:22 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 13:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-24-06/15/26 13:24:18 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-24-06/15/26 13:24:18 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-24-06/15/26 13:24:18 - werkzeug - INFO -  * Restarting with stat
+2026-24-06/15/26 13:24:18 - werkzeug - WARNING -  * Debugger is active!
+2026-24-06/15/26 13:24:18 - werkzeug - INFO -  * Debugger PIN: 120-781-026
+2026-35-06/15/26 14:35:27 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:35:27] "GET /upload HTTP/1.1" 200 -
+2026-35-06/15/26 14:35:28 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:35:28] "GET /static/img/icon/feather_upload-cloud.png HTTP/1.1" 200 -
+2026-35-06/15/26 14:35:28 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:35:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-35-06/15/26 14:35:28 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:35:28] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-35-06/15/26 14:35:37 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:35:37] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-36-06/15/26 14:36:00 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:36:00] "GET /images HTTP/1.1" 200 -
+2026-36-06/15/26 14:36:00 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:36:00] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-36-06/15/26 14:36:00 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-36-06/15/26 14:36:00 - werkzeug - INFO - 172.18.0.1 - - [15/Jun/2026 14:36:00] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:37 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-49-06/15/26 19:49:37 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-49-06/15/26 19:49:37 - werkzeug - INFO -  * Restarting with stat
+2026-49-06/15/26 19:49:37 - werkzeug - WARNING -  * Debugger is active!
+2026-49-06/15/26 19:49:37 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-49-06/15/26 19:49:47 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:47] "GET /upload HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:47 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:47] "GET /static/img/icon/feather_upload-cloud.png HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:47 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:47] "GET /static/css/reset.css HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:47 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:47 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:47] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:49 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:49] "GET /images HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:49 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:49] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:50 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:50 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:50] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:51 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:51] "GET /upload HTTP/1.1" 200 -
+2026-49-06/15/26 19:49:51 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:51] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:51 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:51 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:51] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:51 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:51] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-49-06/15/26 19:49:55 - werkzeug - INFO - 127.0.0.1 - - [15/Jun/2026 19:49:55] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-01-06/15/26 20:01:35 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.0.109:3000
+2026-01-06/15/26 20:01:35 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-06/15/26 20:01:35 - werkzeug - INFO -  * Restarting with stat
+2026-01-06/15/26 20:01:36 - werkzeug - WARNING -  * Debugger is active!
+2026-01-06/15/26 20:01:36 - werkzeug - INFO -  * Debugger PIN: 880-213-171
