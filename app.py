@@ -77,7 +77,7 @@ def images_page():
             }
         )
 
-    return render_template( template_name_or_list= 'images.html',images=images)
+    return render_template( template_name_or_list= 'images_list.html',images=images)
 
 @app.post('/upload')
 def upload_image():
