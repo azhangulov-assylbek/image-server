@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,78 +14,62 @@
 </head>
 <body>
 
-<!--    <section class="upload_infro">-->
-<!--        <h2> Список изображений </h2>-->
-<!--        <p> Всего загружено {{ images|length}} изображений на этой странице </p>-->
-<!--    </section>-->
-<!--{% if images %}-->
-<!--    <table>-->
-<!--        <thead>-->
-<!--        <tr>-->
-<!--            <th> Файл </th>-->
-<!--            <th> Оригинальное имя </th>-->
-<!--            <th> Размер(КБ) </th>-->
-<!--            <th> Двта загрузки </th>-->
-<!--            <th> Тип файла </th>-->
-<!--            <th> Действие </th>-->
-<!--        </tr>-->
-<!--        </thead>-->
-<!--        <tbody>-->
-<!--        {% for img in images %}-->
-<!--        <tr>-->
-<!--            <td> {{ img.filename[:16] }} </td>-->
-<!--            <td> {{ img.original_name }} </td>-->
-<!--            <td> {{ img.size_kb }} </td>-->
-<!--            <td> {{ img.upload_time }} </td>-->
-<!--            <td> {{ img.file_type }} </td>-->
-<!--        </tr>-->
+    <section class="upload_info">
+        <h2> Список изображений </h2>
+        <p> Всего загружено {{ images|length }} изображений на этой странице </p>
+    </section>
 
-<!--        </tbody>-->
-<!--    </table>-->>
+    {% if images %}
     <div class="table-wrapper">
         <table class="images-table">
             <thead>
+                <tr>
+                    <th> Файл </th>
+                    <th> Оригинальное имя </th>
+                    <th> Размер (КБ) </th>
+                    <th> Дата загрузки </th>
+                    <th> Тип файла </th>
+                    <th> Действие </th>
+                </tr>
             </thead>
             <tbody>
-                {% for img  in images %}
+                {% for img in images %}
                 <tr>
-                    <td> title ="{{img.filename}}">{{ img.filename[:16] }} </td>
-                    <td> {{ img.original_name }} </td>
-                    <td> {{ img.size / 1024 | round(1) }} </td>
-                    <td> {{ img.upload_time.strftime('%Y-%m-%d %H:%M) }} </td>
-                    <td> {{ img.file_type }} </td>
+                    <td title="{{ img.filename }}">{{ img.filename[:16] }}</td>
+                    <td>{{ img.original_name }}</td>
+                    <td>{{ (img.size / 1024) | round(1) }}</td>
+                    <td>{{ img.upload_time.strftime('%Y-%m-%d %H:%M') }}</td>
+                    <td>{{ img.file_type }}</td>
                     <td>
-                         <a class="table-action" href="{{ img.url }}" target="_blank" rel="noopener"> Открыть</a>
+                        <a class="table-action" href="{{ img.url }}" target="_blank" rel="noopener"> Открыть</a>
                     </td>
                 </tr>
                 {% endfor %}
             </tbody>
-
-
         </table>
     </div>
 
     {% if total_pages > 1 %}
     <nav class="pagination">
-        {% if page >1 %}
-        <a class="pagination_link" href="{{ url_for('images_list',page=page-1) }}"> Назад </a>
+        {% if page > 1 %}
+        <a class="pagination_link" href="{{ url_for('images_list', page=page-1) }}"> Назад </a>
         {% else %}
-        <span class="pagination_link pagination_link--disabled]"> Назад </span>
+        <span class="pagination_link pagination_link--disabled"> Назад </span>
         {% endif %}
 
         {% for p in range(1, total_pages + 1) %}
             {% if p == page %}
             <span class="pagination_link pagination_link--active"> {{ p }} </span>
             {% else %}
-            <a class="pagination_link" href="{{ url_for('images_list',page=p) }}">{{ p }} </a>
+            <a class="pagination_link" href="{{ url_for('images_list', page=p) }}">{{ p }} </a>
             {% endif %}
         {% endfor %}
-
     </nav>
     {% endif %}
 
     {% else %}
     <p class="images-empty"> Пока нет ни одного загруженного изображения</p>
-</body>
+    {% endif %}
 
+</body>
 </html>
