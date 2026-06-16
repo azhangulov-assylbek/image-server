@@ -12,9 +12,12 @@ services:
     environment:
       IMAGES_DIR: /images
       LOGS_DIR: /logs
+      DB_HOST: db
+      DB_PORT: 5432
     volumes:
       - ./images:/images
       - ./logs:/logs
+
 
   db:
     image: postgres:15
