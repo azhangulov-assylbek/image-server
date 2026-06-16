@@ -16,17 +16,17 @@ def save_metadata(filename:str,original_name:str, size:int,file_type:str)->None:
         logging.error(f'База данных: ошибка сохранения данных {e}')
         raise
 
-def get_images(per_page: int,offset: int) ->:
+def get_images(per_page: int,offset: int)  :
     try:
         with get_connection() as conn:
             with conn.cursor() as cursor:
 
                 cursor.execute('''
-                SELECT id,filename,original_name,size,upload_time,file_type 
+                SELECT id,filename,original_name,size,upload_date,file_type 
                 FROM images
-                ORDER BY upload_time DESC
+                ORDER BY upload_date DESC
                 LIMIT %s OFFSET %s;    
-                ''',per_page,offset)
+                ''',(per_page,offset))
                 rows = cursor.fetchall()
         return rows
 
