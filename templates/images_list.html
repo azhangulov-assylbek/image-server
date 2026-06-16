@@ -41,7 +41,15 @@
                     <td>{{ img.upload_time.strftime('%Y-%m-%d %H:%M') }}</td>
                     <td>{{ img.file_type }}</td>
                     <td>
-                        <a class="table-action" href="{{ img.url }}" target="_blank" rel="noopener"> Открыть</a>
+                        <div class="table-actions">
+                            <a class="table-action" href="{{ img.url }}" target="_blank" rel="noopener">Открыть</a>
+                            <form class="delete-form" method="post"
+                                  action="{{ url_for('delete_image', filename=img.filename) }}"
+                                  onsubmit="return confirm('Удалить это изображение? Действие необратимо.');">
+                                <input type="hidden" name="page" value="{{ page }}">
+                                <button type="submit" class="table-action table-action--danger">Удалить</button>
+                            </form>
+                        </div>
                     </td>
                 </tr>
                 {% endfor %}

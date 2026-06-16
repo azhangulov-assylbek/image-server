@@ -345,3 +345,15 @@ body {
     text-align: center;
     color: #0b0b0b;
 }
+.table-actions { display: flex; gap: 8px; align-items: center; }
+
+.table-action--danger {
+    color: #fff;
+    background-color: #e23b3b;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font: inherit;
+}
+.table-action--danger:hover { background-color: #c62f2f; }

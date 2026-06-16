@@ -1,4 +1,4 @@
-from flask import Flask,render_template,jsonify,request,send_from_directory,url_for
+from flask import Flask,render_template,jsonify,request,send_from_directory,url_for,redirect,abort
 from PIL import Image, UnidentifiedImageError
 from werkzeug.exceptions import RequestEntityTooLarge
 import logging
@@ -7,7 +7,7 @@ import os
 from io import BytesIO
 from pathlib import Path
 
-from database.repository import save_metadata, get_images, get_count_images
+from database.repository import save_metadata, get_images, get_count_images,delete_metadata
 
 app = Flask(__name__)
 
@@ -140,6 +140,24 @@ def upload_image():
         'url':full_url,
         }
     ),201
+
+
+@app.post('/images/<path:filename>/delete')
+def delete_image(filename):
+    page = request.form.get('page', 1, type=int)
+
+    # Безопасность: путь должен оставаться внутри папки images (защита от ../../)
+    images_root = IMAGES_DIR.resolve()
+    target_path = (IMAGES_DIR / filename).resolve()
+    if not target_path.is_relative_to(images_root):
+        logging.warning(f'Удаление отклонено: подозрительный путь {filename}')
+        abort(404)
+
+    target_path.unlink(missing_ok=True)   # удаляем файл с диска (не упадёт, если файла нет)
+    delete_metadata(filename)             # удаляем запись из БД
+    logging.info(f'Изображение {filename} удалено')
+
+    return redirect(url_for('images_list', page=page))
 
 @app.get('/images-list')
 def images_list():

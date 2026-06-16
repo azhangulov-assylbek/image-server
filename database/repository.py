@@ -45,3 +45,14 @@ def get_count_images():
         logging.error(f'Не удалось извлечь данные из базы данных : {e}')
         raise
 
+# функция удаления загруженного файла
+def delete_metadata(filename: str) -> None:
+    try:
+        with get_connection() as conn:
+            with conn.cursor() as cursor:
+                cursor.execute('DELETE FROM images WHERE filename = %s;', (filename,))
+                conn.commit()
+                logging.info(f'База данных: метаданные для {filename} удалены')
+    except Exception as e:
+        logging.error(f'База данных: ошибка удаления данных {e}')
+        raise
