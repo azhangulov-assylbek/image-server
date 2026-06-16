@@ -11,9 +11,9 @@ def create_images():
             id SERIAL PRIMARY KEY,
             filename VARCHAR(100) NOT NULL UNIQUE,
             original_name VARCHAR(100) NOT NULL,
-            size SMALLINT NOT NULL,
+            size INTEGER NOT NULL,
             upload_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-            file_type VARCHAR(4) NOT NULL
+            file_type VARCHAR(10) NOT NULL
             )
             ''')
             conn.commit()

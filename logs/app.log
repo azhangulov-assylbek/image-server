@@ -469,3 +469,5 @@
 2026-01-06/15/26 20:01:35 - werkzeug - INFO -  * Restarting with stat
 2026-01-06/15/26 20:01:36 - werkzeug - WARNING -  * Debugger is active!
 2026-01-06/15/26 20:01:36 - werkzeug - INFO -  * Debugger PIN: 880-213-171
+2026-48-06/16/26 10:48:22 - werkzeug - INFO -  * Detected change in '/home/asylbek/PycharmProjects/image-server/app.py', reloading
+2026-48-06/16/26 10:48:23 - werkzeug - INFO -  * Restarting with stat

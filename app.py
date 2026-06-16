@@ -37,20 +37,18 @@ logging.basicConfig(
     filename=LOGS_DIR / 'app.log',
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    datefmt='%Y-%M-%D %H:%M:%S',
+    datefmt='%Y-%m-%d %H:%M:%S',
     encoding='utf-8'
 )
-
 
 def detect_image_extension(file_data: bytes):
     try:
         with Image.open(BytesIO(file_data)) as image:
             image.verify()
-
-            return ALLOWED_IMAGE_FORMATS.get(image.format)
-    except (UnidentifiedImageError,OSError):
-            return None
-
+            extensions = ALLOWED_IMAGE_FORMATS.get(image.format)
+            return extensions[0] if extensions else None
+    except (UnidentifiedImageError, OSError):
+        return None
 @app.get("/")
 def home():
     return render_template("index.html")
@@ -79,7 +77,7 @@ def images_page():
             }
         )
 
-    return render_template( template_name_or_list= 'images.html',images=Image)
+    return render_template( template_name_or_list= 'images.html',images=images)
 
 @app.post('/upload')
 def upload_image():
@@ -91,57 +89,57 @@ def upload_image():
             'error':'Файл не найден. Поле формы должно называться image'
         })
 
-        original_filename= upload_file.filename or 'unknown'
+    original_filename= uploaded_file.filename or 'unknown'
 
-        file_data = uploaded_file.read()
+    file_data = uploaded_file.read()
 
-        if not file_data:
-            logging.warning(f'Ошибка: файл {original_filename} не должен быть пустым')
-            return jsonify({
-                    'error': 'Пустой файл'
-            }),400
+    if not file_data:
+        logging.warning(f'Ошибка: файл {original_filename} не должен быть пустым')
+        return jsonify({
+                'error': 'Пустой файл'
+        }),400
 
-        if len(file_data) > MAX_FILE_SIZE:
-            logging.warning(f'Ошибка: файл {original_filename} не должен быть больше 5МВ')
-            return jsonify({
-                'error': 'Файл не может быть больше 5 Мб'
-            })
+    if len(file_data) > MAX_FILE_SIZE:
+        logging.warning(f'Ошибка: файл {original_filename} не должен быть больше 5МВ')
+        return jsonify({
+            'error': 'Файл не может быть больше 5 Мб'
+        })
 
-        image_extension = detect_image_extension(file_data)
+    image_extension = detect_image_extension(file_data)
 
-        if image_extension is None:
-            logging.warning(f'Ошибка: неподдерживаемый или поврежденный файл')
-            return jsonify({
-                'error': 'Поддерживаются только форматы jpg,png,gif'
-            })
+    if image_extension is None:
+        logging.warning(f'Ошибка: неподдерживаемый или поврежденный файл')
+        return jsonify({
+            'error': 'Поддерживаются только форматы jpg,png,gif'
+        })
 
-        unique_filename = f'{uuid.uuid4().hex}{image_extension}'
+    unique_filename = f'{uuid.uuid4().hex}{image_extension}'
 
-        target_path= IMAGES_DIR / unique_filename
+    target_path= IMAGES_DIR / unique_filename
 
-        target_path.write_bytes(file_data)
-        try:
-            save_metadata(
-                filename=unique_filename,
-                original_name=original_filename,
-                size=len(file_data),
-                file_type=image_extension
-            )
-        except Exception as e:
-            target_path.unlink(missing_ok=True)
-            logging.error(f'Файл удален, потому что не удалось сохранить метаданные')
-            return jsonify({'error':"Ошибка при сохранении данных"}),500
+    target_path.write_bytes(file_data)
+    try:
+        save_metadata(
+            filename=unique_filename,
+            original_name=original_filename,
+            size=len(file_data),
+            file_type=image_extension
+        )
+    except Exception as e:
+        target_path.unlink(missing_ok=True)
+        logging.error(f'Файл удален, потому что не удалось сохранить метаданные')
+        return jsonify({'error':"Ошибка при сохранении данных"}),500
 
-        relative_url= url_for('get_image',filename=unique_filename)
-        full_url= request.host_url.rstrip('/') + relative_url
-        logging.info(f'Успех. Изображение загружено как {original_filename}')
-        return jsonify(
-            {
-            'message':'Изображение успешно загружено',
-            'id': unique_filename,
-            'url':full_url,
-            }
-        ),201
+    relative_url= url_for('get_image',filename=unique_filename)
+    full_url= request.host_url.rstrip('/') + relative_url
+    logging.info(f'Успех. Изображение загружено как {original_filename}')
+    return jsonify(
+        {
+        'message':'Изображение успешно загружено',
+        'id': unique_filename,
+        'url':full_url,
+        }
+    ),201
 
 @app.get('/users/<string:name>')
 def get_user(name):
@@ -149,7 +147,7 @@ def get_user(name):
 
 @app.get('/images/<path:filename>')
 def get_image(filename):
-    return send_from_directory(IMAGE_DIR, filename)
+    return send_from_directory(IMAGES_DIR, filename)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=3000,debug=True)
