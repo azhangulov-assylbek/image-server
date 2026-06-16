@@ -14,7 +14,7 @@ def create_images():
             size INTEGER NOT NULL,
             upload_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
             file_type VARCHAR(10) NOT NULL
-            )
+            );
             ''')
             conn.commit()
             return 'Таблица создалась успешно!'

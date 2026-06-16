@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>images-list</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/reset.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+</head>
+<body>
+
+    <section class="upload_infro">
+        <h2> Список изображений </h2>
+        <p> Всего загружено {{ images|length}} изображений на этой странице </p>
+    </section>
+{% if images %}
+    <table>
+        <thead>
+        <tr>
+            <th> Файл </th>
+            <th> Оригинальное имя </th>
+            <th> Размер(КБ) </th>
+            <th> Двта загрузки </th>
+            <th> Тип файла </th>
+            <th> Действие </th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for img in images %}
+        <tr>
+            <td> {{ img.filename[:16] }} </td>
+            <td> {{ img.original_name }} </td>
+            <td> {{ img.size_kb }} </td>
+            <td> {{ img.upload_time }} </td>
+            <td> {{ img.file_type }} </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>

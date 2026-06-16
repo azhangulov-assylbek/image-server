@@ -471,3 +471,225 @@
 2026-01-06/15/26 20:01:36 - werkzeug - INFO -  * Debugger PIN: 880-213-171
 2026-48-06/16/26 10:48:22 - werkzeug - INFO -  * Detected change in '/home/asylbek/PycharmProjects/image-server/app.py', reloading
 2026-48-06/16/26 10:48:23 - werkzeug - INFO -  * Restarting with stat
+2026-06-16 08:57:47 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-06-16 08:57:47 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-16 08:57:47 - werkzeug - INFO -  * Restarting with stat
+2026-06-16 08:57:47 - werkzeug - WARNING -  * Debugger is active!
+2026-06-16 08:57:47 - werkzeug - INFO -  * Debugger PIN: 123-140-884
+2026-06-16 08:58:27 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:27] "GET / HTTP/1.0" 200 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//css/reset.css HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//css/style.css HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//js/index.js HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//img/Eric.png HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//img/Zero.png HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//img/Nord.png HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//img/Cat.png HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[32mGET /static//img/Griz.png HTTP/1.0[0m" 308 -
+2026-06-16 08:58:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 08:58:28] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2026-06-16 08:58:37 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:37] "GET / HTTP/1.1" 200 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:38 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:38] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:40 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:40] "GET /upload HTTP/1.1" 200 -
+2026-06-16 08:58:40 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:40] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 08:58:40 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:40] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-06-16 08:58:40 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 08:58:40 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:40] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 08:58:47 - root - ERROR - Файл удален, потому что не удалось сохранить метаданные
+2026-06-16 08:58:47 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:47] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-06-16 08:58:57 - root - ERROR - Файл удален, потому что не удалось сохранить метаданные
+2026-06-16 08:58:57 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:58:57] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-06-16 08:59:12 - root - ERROR - Файл удален, потому что не удалось сохранить метаданные
+2026-06-16 08:59:12 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:59:12] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-06-16 08:59:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:59:17] "GET /images HTTP/1.1" 200 -
+2026-06-16 08:59:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:59:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 08:59:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:59:17] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 08:59:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 08:59:17] "GET /static/js/images.js HTTP/1.1" 200 -
+2026-06-16 09:10:41 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:41] "GET /upload HTTP/1.1" 200 -
+2026-06-16 09:10:42 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:42 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:42] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-06-16 09:10:42 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:42] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:42 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:42] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 09:10:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:44] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:10:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:44] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:44] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:10:45 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:45] "GET /upload HTTP/1.1" 200 -
+2026-06-16 09:10:45 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:45 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:45] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:10:45 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:45] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-06-16 09:10:45 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:45] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 09:10:52 - root - ERROR - Файл удален, потому что не удалось сохранить метаданные
+2026-06-16 09:10:52 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:10:52] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-06-16 09:13:31 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 09:13:31] "[33mPOST /goform/set_LimitClient_cfg HTTP/1.0[0m" 404 -
+2026-06-16 09:20:15 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:15] "GET / HTTP/1.1" 200 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:16] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:20 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:20] "GET /upload HTTP/1.1" 200 -
+2026-06-16 09:20:21 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:21] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:21 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:21] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-06-16 09:20:21 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:21 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:21] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:26 - root - INFO - База данных:метаданные для ac8328240d234436b742df22137c3564.jpg сохранены
+2026-06-16 09:20:26 - root - INFO - Успех. Изображение загружено как photo.jpg
+2026-06-16 09:20:26 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:26] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:20:31 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:31] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:20:34 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:34] "GET /upload HTTP/1.1" 200 -
+2026-06-16 09:20:34 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:34] "[36mGET /static/js/upload.js HTTP/1.1[0m" 304 -
+2026-06-16 09:20:34 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:34] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:34 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:20:34 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:34] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 09:20:58 - root - INFO - База данных:метаданные для 5f5186eda742420ea5ee99b6981d8c9b.jpg сохранены
+2026-06-16 09:20:58 - root - INFO - Успех. Изображение загружено как photo29.jpg
+2026-06-16 09:20:58 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:20:58] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2026-06-16 09:21:07 - root - INFO - База данных:метаданные для 826beeccd04f4efeaf760d8577ed4033.png сохранены
+2026-06-16 09:21:07 - root - INFO - Успех. Изображение загружено как IMG_0309.PNG
+2026-06-16 09:21:07 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:07] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:21:10 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:21:10] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:32:47 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 09:32:47] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 09:34:13 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://172.18.0.3:3000
+2026-06-16 09:34:13 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-06-16 09:34:13 - werkzeug - INFO -  * Restarting with stat
+2026-06-16 09:34:14 - werkzeug - WARNING -  * Debugger is active!
+2026-06-16 09:34:14 - werkzeug - INFO -  * Debugger PIN: 245-009-469
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:35:16 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:16] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:35:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:17] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:35:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:17] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:17 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:18 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:18] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:35:18 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:18] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:35:18 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:18] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "GET / HTTP/1.1" 200 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//css/reset.css HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//css/style.css HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//js/index.js HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//img/Cat.png HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//img/Zero.png HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//img/Griz.png HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//img/Eric.png HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[32mGET /static//img/Nord.png HTTP/1.1[0m" 308 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/img/Zero.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/img/Griz.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/img/Nord.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/img/Eric.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:27 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:27] "[36mGET /static/img/Cat.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:29 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:29] "GET /upload HTTP/1.1" 200 -
+2026-06-16 09:35:29 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:29] "GET /static/js/upload.js HTTP/1.1" 200 -
+2026-06-16 09:35:29 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:29] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:29 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:29 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:29] "[36mGET /static/img/icon/feather_upload-cloud.png HTTP/1.1[0m" 304 -
+2026-06-16 09:35:52 - root - INFO - База данных:метаданные для 01a3b5d001db49e4a1078bee9eb30290.jpg сохранены
+2026-06-16 09:35:52 - root - INFO - Успех. Изображение загружено как photo29.jpg
+2026-06-16 09:35:52 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:52] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "GET /images HTTP/1.1" 200 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "[36mGET /static/css/reset.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "[36mGET /static/js/images.js HTTP/1.1[0m" 304 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:35:55 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:35:55] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:37:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:37:44] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:37:44 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:37:44] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:37:46 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:37:46] "[33mGET /image-uploader/img/icon/Group.png HTTP/1.1[0m" 404 -
+2026-06-16 09:37:46 - werkzeug - INFO - 172.18.0.1 - - [16/Jun/2026 09:37:46] "[33mGET /image-uploader/img/icon/delete.png HTTP/1.1[0m" 404 -
+2026-06-16 09:53:20 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 09:53:20] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 09:58:55 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 09:58:55] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 10:16:39 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 10:16:39] "[33mGET /login HTTP/1.0[0m" 404 -
+2026-06-16 11:17:30 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:17:30] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 11:19:09 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:19:09] "[33mGET /login HTTP/1.0[0m" 404 -
+2026-06-16 11:33:39 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:33:39] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 11:37:43 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:37:43] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 11:48:11 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:11] "GET / HTTP/1.0" 200 -
+2026-06-16 11:48:11 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:11] "[33mGET /app/.env HTTP/1.0[0m" 404 -
+2026-06-16 11:48:11 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:11] "[33mGET /server/.env HTTP/1.0[0m" 404 -
+2026-06-16 11:48:11 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:11] "[33mGET /core/.env HTTP/1.0[0m" 404 -
+2026-06-16 11:48:12 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:12] "[33mGET /.env.sample HTTP/1.0[0m" 404 -
+2026-06-16 11:48:12 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:12] "[33mGET /.env.local HTTP/1.0[0m" 404 -
+2026-06-16 11:48:12 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:12] "[33mGET /.envrc.local HTTP/1.0[0m" 404 -
+2026-06-16 11:48:12 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:12] "[33mGET /secrets.env HTTP/1.0[0m" 404 -
+2026-06-16 11:48:12 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:12] "[33mGET /.env.production HTTP/1.0[0m" 404 -
+2026-06-16 11:48:13 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:13] "[33mGET /config/.env HTTP/1.0[0m" 404 -
+2026-06-16 11:48:13 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:48:13] "[33mGET /.git-credentials HTTP/1.0[0m" 404 -
+2026-06-16 11:53:27 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:53:27] "GET / HTTP/1.0" 200 -
+2026-06-16 11:53:37 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:53:37] "GET / HTTP/1.0" 200 -
+2026-06-16 11:55:36 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:55:36] "GET / HTTP/1.0" 200 -
+2026-06-16 11:55:37 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 11:55:37] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2026-06-16 12:03:57 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 12:03:57] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 12:05:45 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 12:05:45] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 12:37:03 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 12:37:03] "[33mGET /SDK/webLanguage HTTP/1.0[0m" 404 -
+2026-06-16 13:06:50 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:06:50] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.0[0m" 404 -
+2026-06-16 13:10:05 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:10:05] "GET / HTTP/1.0" 200 -
+2026-06-16 13:21:19 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:19] "GET / HTTP/1.0" 200 -
+2026-06-16 13:21:20 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:20] "[33mGET /config HTTP/1.0[0m" 404 -
+2026-06-16 13:21:21 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:21] "[33mGET /.env HTTP/1.0[0m" 404 -
+2026-06-16 13:21:22 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:22] "[33mGET /.env.local HTTP/1.0[0m" 404 -
+2026-06-16 13:21:23 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:23] "[33mGET /.env.production HTTP/1.0[0m" 404 -
+2026-06-16 13:21:23 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:23] "[33mGET /.env.development HTTP/1.0[0m" 404 -
+2026-06-16 13:21:24 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:24] "[33mGET /.env.dev HTTP/1.0[0m" 404 -
+2026-06-16 13:21:25 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:25] "[33mGET /.env.prod HTTP/1.0[0m" 404 -
+2026-06-16 13:21:25 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:25] "[33mGET /.env.test HTTP/1.0[0m" 404 -
+2026-06-16 13:21:26 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:26] "[33mGET /.env.staging HTTP/1.0[0m" 404 -
+2026-06-16 13:21:27 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:27] "[33mGET /.env.backup HTTP/1.0[0m" 404 -
+2026-06-16 13:21:28 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:28] "[33mGET /.env.save HTTP/1.0[0m" 404 -
+2026-06-16 13:21:29 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:29] "[33mGET /.env.old HTTP/1.0[0m" 404 -
+2026-06-16 13:21:30 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:30] "[33mGET /.env.bak HTTP/1.0[0m" 404 -
+2026-06-16 13:21:31 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:31] "[33mGET /.env.tmp HTTP/1.0[0m" 404 -
+2026-06-16 13:21:31 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:31] "[33mGET /.env.swp HTTP/1.0[0m" 404 -
+2026-06-16 13:21:32 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:32] "[33mGET /.env~ HTTP/1.0[0m" 404 -
+2026-06-16 13:21:33 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:33] "[33mGET /.env.example HTTP/1.0[0m" 404 -
+2026-06-16 13:21:34 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:34] "[33mGET /.env.sample HTTP/1.0[0m" 404 -
+2026-06-16 13:21:34 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:34] "[33mGET /.env.dist HTTP/1.0[0m" 404 -
+2026-06-16 13:21:35 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:35] "[33mGET /.env.template HTTP/1.0[0m" 404 -
+2026-06-16 13:21:36 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:36] "[33mGET /.env.production.local HTTP/1.0[0m" 404 -
+2026-06-16 13:21:37 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:37] "[33mGET /.env.development.local HTTP/1.0[0m" 404 -
+2026-06-16 13:21:37 - werkzeug - INFO - 172.18.0.4 - - [16/Jun/2026 13:21:37] "[33mGET /.env.test.local HTTP/1.0[0m" 404 -

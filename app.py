@@ -7,7 +7,7 @@ import os
 from io import BytesIO
 from pathlib import Path
 
-from database.repository import save_metadata
+from database.repository import save_metadata, get_images, get_count_images
 
 app = Flask(__name__)
 
@@ -141,6 +141,33 @@ def upload_image():
         }
     ),201
 
+@app.get('/images-list')
+def images_list():
+    page= request.args.get('page', 1, type=int)
+    per_page= 10
+    offset= (page-1) * per_page
+    total = get_count_images()
+    rows = get_images(per_page=per_page,offset=offset)
+    images = []
+    for row in rows:
+        images.append(
+            {
+                'id':row[0],
+                'filename':row[1],
+                'original_name':row[2],
+                'size':row[3],
+                'upload_time':row[4],
+                'file_type':row[5],
+                'url': url_for('get_image',filename=row[1])
+            }
+        )
+    total_pages = (total+per_page-1)//per_page
+    return render_template(
+        template_name_or_list= 'images_list.html',
+        images=images,
+        page=page,
+        total_pages=total_pages,
+    )
 @app.get('/users/<string:name>')
 def get_user(name):
     return f'Hello {name}'

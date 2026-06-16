@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for (const file of files) {
             if (!allowedTypes.includes(file.type) || file.size > MAX_SIZE_BYTES) {
+                alert(`Файл ${file.name} пропущен: поддерживаются только jpg, png, gif до 5 МБ`);
                 continue;
             }
 
