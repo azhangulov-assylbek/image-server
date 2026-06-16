@@ -321,3 +321,27 @@ body {
     opacity: 0.7;
     /* Make the icon semi-transparent for user feedback */
 }
+.images-table {
+    color: #0b0b0b;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.images-table th,
+.images-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #d7defc;
+    text-align: left;
+}
+
+.images-empty {
+    color: #0b0b0b;
+}
+
+.pagination_link {
+    color: rgb(0, 96, 255);
+}
+.upload_info {
+    text-align: center;
+    color: #0b0b0b;
+}
