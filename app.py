@@ -58,26 +58,7 @@ def home():
 def upload_page():
     return render_template("upload.html")
 
-@app.get('/images')
-def images_page():
-    images=[]
 
-    for image_path in sorted(IMAGES_DIR.iterdir(), key=lambda path:path.stat().st_mtime, reverse=True):
-        if not image_path.is_file():
-            continue
-
-        relative_url=url_for('get_image',filename=image_path.name)
-        full_url=request.host_url.rstrip('/') + relative_url
-
-        images.append(
-            {
-            'name':image_path.name,
-            'relative_url':relative_url,
-            'full_url':full_url,
-            }
-        )
-
-    return render_template( template_name_or_list= 'images_list.html',images=images)
 
 @app.post('/upload')
 def upload_image():

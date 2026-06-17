@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
 
             sessionStorage.removeItem('pageWasVisited');
-            window.location.href = '../index.html';
+            window.location.href = '/';
         }
     });
 });
@@ -106,7 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (imagesButton) {
         imagesButton.addEventListener('click', () => {
-            window.location.href = '/images';
+            window.location.href = '/images-list';
+        });
+    }
+    const uploadButton = document.getElementById('upload-tab-btn');
+    if (uploadButton) {
+        uploadButton.addEventListener('click', () => {
+            window.location.href = '/upload';
         });
     }
 
