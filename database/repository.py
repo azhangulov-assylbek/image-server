@@ -46,13 +46,18 @@ def get_count_images():
         raise
 
 # функция удаления загруженного файла
-def delete_metadata(filename: str) -> None:
+def delete_metadata(image_id: int) -> str | None:
     try:
         with get_connection() as conn:
             with conn.cursor() as cursor:
-                cursor.execute('DELETE FROM images WHERE filename = %s;', (filename,))
+                cursor.execute('DELETE FROM images WHERE id = %s RETURNING filename;', (image_id,))
+                row = cursor.fetchone()
                 conn.commit()
-                logging.info(f'База данных: метаданные для {filename} удалены')
+                if row is None:
+                    logging.warning(f'База данных: запись id={image_id} не найдена')
+                    return None
+                logging.info(f'База данных: запись id={image_id} ({row[0]}) удалена')
+                return row[0]
     except Exception as e:
         logging.error(f'База данных: ошибка удаления данных {e}')
         raise

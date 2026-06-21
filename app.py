@@ -4,9 +4,10 @@ from werkzeug.exceptions import RequestEntityTooLarge
 import logging
 import uuid
 import os
+import time
 from io import BytesIO
 from pathlib import Path
-
+from database.models import create_images
 from database.repository import save_metadata, get_images, get_count_images,delete_metadata
 
 app = Flask(__name__)
@@ -123,21 +124,21 @@ def upload_image():
     ),201
 
 
-@app.post('/images/<path:filename>/delete')
-def delete_image(filename):
+@app.post('/images/<int:image_id>/delete')
+def delete_image(image_id):
     page = request.form.get('page', 1, type=int)
 
-    # Безопасность: путь должен оставаться внутри папки images (защита от ../../)
+    filename = delete_metadata(image_id)   # удаляем запись из БД по id, получаем имя файла
+    if filename is None:
+        abort(404)                          # записи с таким id нет
+
+    # Удаляем сам файл с диска. Имя берём из БД; guard оставляем как доп. защиту.
     images_root = IMAGES_DIR.resolve()
     target_path = (IMAGES_DIR / filename).resolve()
-    if not target_path.is_relative_to(images_root):
-        logging.warning(f'Удаление отклонено: подозрительный путь {filename}')
-        abort(404)
+    if target_path.is_relative_to(images_root):
+        target_path.unlink(missing_ok=True)
 
-    target_path.unlink(missing_ok=True)   # удаляем файл с диска (не упадёт, если файла нет)
-    delete_metadata(filename)             # удаляем запись из БД
-    logging.info(f'Изображение {filename} удалено')
-
+    logging.info(f'Изображение id={image_id} удалено')
     return redirect(url_for('images_list', page=page))
 
 @app.get('/images-list')
@@ -175,6 +176,22 @@ def get_user(name):
 def get_image(filename):
     return send_from_directory(IMAGES_DIR, filename)
 
+
+def init_db(retries: int = 10, delay: int = 2) -> None:
+    """Создаёт таблицу при старте. С повторами — на случай, если
+    Postgres в docker-compose ещё не успел подняться."""
+    for attempt in range(1, retries + 1):
+        try:
+            create_images()
+            logging.info('База данных готова: таблица images проверена/создана')
+            return
+        except Exception as e:
+            logging.warning(f'БД недоступна (попытка {attempt}/{retries}): {e}')
+            time.sleep(delay)
+    logging.error('Не удалось инициализировать базу данных после нескольких попыток')
+    raise RuntimeError('База данных недоступна, таблица не создана')
+
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=3000,debug=True)
+    init_db()
+    app.run(host='0.0.0.0', port=3000, debug=True)
 

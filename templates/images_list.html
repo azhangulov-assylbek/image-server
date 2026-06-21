@@ -47,7 +47,7 @@
                         <div class="table-actions">
                             <a class="table-action" href="{{ img.url }}" target="_blank" rel="noopener">Открыть</a>
                             <form class="delete-form" method="post"
-                                  action="{{ url_for('delete_image', filename=img.filename) }}"
+                                  action="{{ url_for('delete_image', image_id=img.id) }}"
                                   onsubmit="return confirm('Удалить это изображение? Действие необратимо.');">
                                 <input type="hidden" name="page" value="{{ page }}">
                                 <button type="submit" class="table-action table-action--danger">Удалить</button>
